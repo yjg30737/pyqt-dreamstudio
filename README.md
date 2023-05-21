@@ -23,7 +23,7 @@ Make your image in <a href="https://beta.dreamstudio.ai/generate">here</a> befor
 ## How to Use
 There is the options tab at the right side of the window. 
 
-Choose options, write propmt, submit it, and you can see the result at the left side (which looks like file explorer) soon enough.
+Input your API key, choose parameters you want to set, write propmt, submit it, and you can see the result at the left side (which looks like file explorer) soon enough.
 
 See the <a href="https://platform.stability.ai/docs/features/api-parameters">whole explanation</a> about every options to make better image.
 
