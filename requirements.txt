@@ -1,0 +1,4 @@
+PyQt5>=5.14
+PySide6
+qtpy
+stability_sdk
