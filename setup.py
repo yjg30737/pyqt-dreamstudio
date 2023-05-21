@@ -15,15 +15,14 @@ setup(
     license='MIT',
     packages=find_packages(),
     package_data={'pyqt_dreamstudio': ['logo.png'], 'pyqt_dreamstudio.ico': ['history.svg', 'setting.svg']},
-    description='PyQt OpenAI example',
-    url='https://github.com/yjg30737/pyqt-openai.git',
+    description='Using DreamStudio API in Python desktop application',
+    url='https://github.com/yjg30737/pyqt-dreamstudio.git',
     long_description_content_type='text/markdown',
     long_description=long_description,
     install_requires=[
         'PyQt5>=5.14',
         'PySide6',
         'qtpy',
-        'openai',
         'stability_sdk'
     ]
 )
