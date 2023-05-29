@@ -15,11 +15,10 @@ Using DreamStudio or the API requires credits. Take a look at <a href="https://p
 Make your image in <a href="https://beta.dreamstudio.ai/generate">here</a> before doing with this app.
 
 ## How to Install
+### By Cloninig
 1. git clone ~
-2. cd pyqt-dreamstudio
-3. pip install -r requirements.txt
-4. python setup.py install
-5. python main.py
+2. pip install -r requirements.txt
+3. python main.py
 
 ## How to Use
 There is the options tab at the right side of the window. 
