@@ -24,7 +24,8 @@ Make your image in <a href="https://beta.dreamstudio.ai/generate">here</a> befor
 6. python main.py
 ### By pip
 1. pip install pyqt_dreamstudio
-2. ```python
+2. 
+```python
 from pyqt_dreamstudio.imageGeneratingToolWidget import ImageGeneratingToolWidget
 
 if __name__ == "__main__":
