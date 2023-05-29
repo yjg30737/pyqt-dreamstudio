@@ -1,7 +1,7 @@
 from qtpy.QtWidgets import QWidget, QTabWidget, QVBoxLayout
 from qtpy.QtCore import Signal
 
-from imageStableDiffusionPage import ImageStableDiffusionPage
+from pyqt_dreamstudio.imageStableDiffusionPage import ImageStableDiffusionPage
 
 
 class RightSideBar(QWidget):

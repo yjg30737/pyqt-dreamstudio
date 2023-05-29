@@ -4,9 +4,9 @@ from qtpy.QtCore import Signal
 from qtpy.QtWidgets import QWidget, QCheckBox, QListWidget, QVBoxLayout, QHBoxLayout, QSpacerItem, QSizePolicy, QListWidgetItem, \
     QLabel
 
-from imageListWidget import ImageListWidget
-from searchBar import SearchBar
-from svgButton import SvgButton
+from pyqt_dreamstudio.imageListWidget import ImageListWidget
+from pyqt_dreamstudio.searchBar import SearchBar
+from pyqt_dreamstudio.svgButton import SvgButton
 
 
 class LeftSideBar(QWidget):

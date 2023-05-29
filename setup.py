@@ -14,7 +14,7 @@ setup(
     author_email='yjg30737@gmail.com',
     license='MIT',
     packages=find_packages(),
-    package_data={'pyqt_dreamstudio': ['logo.png'], 'ico': ['history.svg', 'setting.svg']},
+    package_data={'pyqt_dreamstudio': ['logo.png'], 'pyqt_dreamstudio.ico': ['history.svg', 'setting.svg']},
     description='Using DreamStudio API in Python desktop application',
     url='https://github.com/yjg30737/pyqt-dreamstudio.git',
     long_description_content_type='text/markdown',

@@ -6,7 +6,7 @@ from qtpy.QtGui import QPixmap, QColor, QBrush, QLinearGradient, QPainter
 from qtpy.QtWidgets import QGraphicsScene, QGraphicsPixmapItem, QGraphicsView, QApplication, QWidget, QHBoxLayout, \
     QFileDialog
 
-from svgButton import SvgButton
+from pyqt_dreamstudio.svgButton import SvgButton
 
 
 class ThumbnailView(QGraphicsView):

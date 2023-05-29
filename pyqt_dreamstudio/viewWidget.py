@@ -4,8 +4,8 @@ from qtpy.QtGui import QFont, QPixmap
 from qtpy.QtWidgets import QWidget, QLabel, QGridLayout, QStackedWidget, QSplitter
 from qtpy.QtCore import Qt
 
-from explorerWidget import ExplorerWidget
-from thumbnailView import ThumbnailView
+from pyqt_dreamstudio.explorerWidget import ExplorerWidget
+from pyqt_dreamstudio.thumbnailView import ThumbnailView
 
 
 class ViewWidget(QWidget):

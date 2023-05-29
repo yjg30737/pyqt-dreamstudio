@@ -4,10 +4,10 @@ from qtpy.QtGui import QIcon, QGuiApplication, QFont
 from qtpy.QtWidgets import QApplication, QHBoxLayout, QVBoxLayout, QFrame, QWidget, QSplitter
 from qtpy.QtCore import Qt, Signal, QCoreApplication
 
-from leftSideBar import LeftSideBar
-from rightSideBar import RightSideBar
-from viewWidget import ViewWidget
-from svgButton import SvgButton
+from pyqt_dreamstudio.leftSideBar import LeftSideBar
+from pyqt_dreamstudio.rightSideBar import RightSideBar
+from pyqt_dreamstudio.viewWidget import ViewWidget
+from pyqt_dreamstudio.svgButton import SvgButton
 
 QApplication.setAttribute(Qt.AA_EnableHighDpiScaling)
 QCoreApplication.setAttribute(Qt.AA_UseHighDpiPixmaps)  # HighDPI support

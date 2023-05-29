@@ -7,10 +7,10 @@ from qtpy.QtWidgets import QWidget, QLineEdit, QVBoxLayout, QHBoxLayout, QGroupB
     QLabel, QPlainTextEdit
 from stability_sdk import client
 
-from notifier import NotifierWidget
-from svgLabel import SvgLabel
+from pyqt_dreamstudio.notifier import NotifierWidget
+from pyqt_dreamstudio.svgLabel import SvgLabel
 
-from toast import Toast
+from pyqt_dreamstudio.toast import Toast
 
 os.environ['STABILITY_HOST'] = 'grpc.stability.ai:443'
 
