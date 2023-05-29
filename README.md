@@ -17,10 +17,22 @@ Make your image in <a href="https://beta.dreamstudio.ai/generate">here</a> befor
 ## How to Install
 ### By Cloninig
 1. git clone ~
-2. pip install -r requirements.txt
-3. python main.py
-### By Pip
-pip install pyqt_dreamstudio
+2. cd pyqt-dreamstudio
+3. pip install -r requirements.txt
+4. python setup.py install
+5. cd pyqt_dreamstudio
+6. python main.py
+### By pip
+1. pip install pyqt_dreamstudio
+2. ```python
+from pyqt_dreamstudio.imageGeneratingToolWidget import ImageGeneratingToolWidget
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    w = ImageGeneratingToolWidget()
+    w.show()
+    sys.exit(app.exec_())
+```
 
 ## How to Use
 There is the options tab at the right side of the window. 
