@@ -26,12 +26,17 @@ Make your image in <a href="https://beta.dreamstudio.ai/generate">here</a> befor
 1. pip install pyqt_dreamstudio
 2. 
 ```python
-from pyqt_dreamstudio.imageGeneratingToolWidget import ImageGeneratingToolWidget
+from PyQt5.QtWidgets import QApplication
+# can use PySide6 as well
+from pyqt_dreamstudio.main import ImageGeneratingToolWidget
+
 
 if __name__ == "__main__":
+    import sys
+
     app = QApplication(sys.argv)
-    w = ImageGeneratingToolWidget()
-    w.show()
+    window = ImageGeneratingToolWidget()
+    window.show()
     sys.exit(app.exec_())
 ```
 
