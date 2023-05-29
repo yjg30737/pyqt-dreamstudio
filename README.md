@@ -19,6 +19,8 @@ Make your image in <a href="https://beta.dreamstudio.ai/generate">here</a> befor
 1. git clone ~
 2. pip install -r requirements.txt
 3. python main.py
+### By Pip
+pip install pyqt_dreamstudio
 
 ## How to Use
 There is the options tab at the right side of the window. 
