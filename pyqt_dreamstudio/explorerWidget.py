@@ -3,7 +3,7 @@ from qtpy.QtWidgets import QGridLayout, QWidget, QScrollArea, \
     QSizePolicy
 from qtpy.QtCore import Qt, Signal
 
-from pyqt_dreamstudio.thumbnailView import ThumbnailView
+from thumbnailView import ThumbnailView
 
 
 class ExplorerWidget(QScrollArea):

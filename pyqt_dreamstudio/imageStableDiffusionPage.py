@@ -7,10 +7,10 @@ from qtpy.QtWidgets import QWidget, QLineEdit, QVBoxLayout, QHBoxLayout, QGroupB
     QLabel, QPlainTextEdit
 from stability_sdk import client
 
-from pyqt_dreamstudio.notifier import NotifierWidget
-from pyqt_dreamstudio.svgLabel import SvgLabel
+from notifier import NotifierWidget
+from svgLabel import SvgLabel
 
-from pyqt_dreamstudio.toast import Toast
+from toast import Toast
 
 os.environ['STABILITY_HOST'] = 'grpc.stability.ai:443'
 
@@ -47,7 +47,7 @@ class ImageStableDiffusionPage(QWidget):
         self.__initUi()
 
     def __initVal(self):
-        self.__settings_struct = QSettings('pyqt_dreamstudio.ini', QSettings.IniFormat)
+        self.__settings_struct = QSettings('ini', QSettings.IniFormat)
 
         self.__sampler_dict = {
             'SAMPLER_DDIM': generation.SAMPLER_DDIM,

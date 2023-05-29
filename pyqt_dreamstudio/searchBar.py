@@ -1,7 +1,7 @@
 from qtpy.QtWidgets import QWidget, QLineEdit, QGridLayout, QLabel, \
     QHBoxLayout, QApplication, QSizePolicy
 from qtpy.QtCore import Signal
-from pyqt_dreamstudio.svgLabel import SvgLabel
+from svgLabel import SvgLabel
 
 
 class SearchBar(QWidget):

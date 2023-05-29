@@ -4,8 +4,8 @@ from qtpy.QtGui import QFont
 from qtpy.QtCore import Qt, Signal
 from qtpy.QtWidgets import QListWidget, QDialog, QListWidgetItem, QLabel, QHBoxLayout, QWidget, QApplication, QVBoxLayout
 
-from pyqt_dreamstudio.inputDialog import InputDialog
-from pyqt_dreamstudio.svgButton import SvgButton
+from inputDialog import InputDialog
+from svgButton import SvgButton
 
 
 class ImageItemWidget(QWidget):
