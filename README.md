@@ -7,6 +7,8 @@ This is separated from <a href="https://github.com/yjg30737/pyqt-openai">pyqt-op
 
 and who wants to fork this to make their app.
 
+If you want to use this freely, enter <a href="https://github.com/yjg30737/pyqt-stable-diffusion-gui">pyqt-stable-diffusion-gui</a>, made by exact same guy who made this. Even though it is much tougher to install you will surprise that how fluent this thing is.
+
 ## Prerequisite 
 You have to get the DreamStudio api key from <a href="https://platform.stability.ai/docs/getting-started/authentication">here</a>.
 
